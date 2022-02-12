@@ -1,0 +1,78 @@
+@import url("variables.css");
+
+body{
+    background-color: var(--primary-color);
+}
+.header-main{
+    background-color: var(--secondary-color);
+    justify-content: space-between;
+    width:100%;
+    padding:1rem;
+    top:0;
+    height: 4rem;
+}
+
+.header-brand-title{
+    color:var(--gray);
+}
+
+.header-right{
+    gap:1rem;
+}
+.header-search{
+    background-color: var(--secondary-color);
+    padding:4px;
+    height:2rem;
+}
+
+
+.header-login-btn{
+    background-color: var(--gray);
+    color:var(--secondary-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    height:2rem;
+    padding:4px;
+    width:6rem;
+}
+
+.header-icon{
+    font-size: 1.5rem;
+}
+
+.header-icon-p{
+    width:2rem;
+}
+
+.header-icon-p .badge{
+    background-color: var(--red);
+    padding:2px;
+    top:-8px;
+    right:-2px;
+}
+
+.main-ct{
+    flex-direction: column;
+    margin: 2rem 2rem 2rem;
+    gap:2rem;
+    align-items: center;
+}
+
+.category-ct{
+    gap:4rem;
+    flex-wrap: wrap;
+}
+.overlay-txt{
+    background-color: var(--secondary-color);
+    text-align: center;
+    color:var(--gray);
+    width:100%;
+    top:50%;
+    font-size:14px;
+}
+
+.card-bd{
+    border:none;
+}
