@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://escapeui.netlify.app/styling/components.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <script src="https://kit.fontawesome.com/7759c244e7.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <header class="header-main flex flex-y-ctr">
+        <h2 class="header-brand-title">Urban Style</h2>
+        <input class="header-search" type="text" placeholder="Search">
+        <div class="header-right flex flex-y-ctr">
+            <button class="header-login-btn">Login</button>
+            <div class="mail-badge header-icon-p">
+                <i class="fa-regular fa-heart header-icon"></i>
+                <span class="badge">0</span>
+            </div>
+            <div class="mail-badge header-icon-p">
+                <i class="fa-solid fa-cart-arrow-down header-icon"></i>
+                <span class="badge">0</span>
+            </div>
+            <i class="fa-solid fa-arrow-right-from-bracket header-icon"></i>
+        </div>
+    </header>
+
+    <div class="main-ct">
+        <div class="login-ct flex">
+            <h2>Login</h2>
+            <span>
+                <label for="login-email">Email Address</label>
+                <input type="text" placeholder="xyz@gmail.com" id="login-email">
+            </span>
+            <span class="pwd">
+                <label for="login-pwd">Password</label>
+                <input type="password" placeholder="********" id="login-pwd">
+                <i class="fa-solid fa-eye"></i>
+                <span class="forgot">Forgot your password?</span>
+            </span>
+
+            <div><input type="checkbox" id="remember"> <label for="remember">Remember me</label></div>
+            <button class="login-a">Login</button>
+            <span class="goto-signup">Create new account ></span>
+        </div>
+    </div>
+</body>
+
+</html>
