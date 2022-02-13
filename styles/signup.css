@@ -5,7 +5,7 @@
     background-color: var(--secondary-color);
     padding:4rem;
     box-shadow: 0px 4px 50px 0px #0000000D;
-    margin:auto;
+    margin:6rem auto;
 }
 
 .signup-ct span label{
@@ -30,13 +30,14 @@
     text-align: center;
 }
 
-.signup-c-a{
+.signup-c-a button{
     margin-top: 1rem;
     background-color: var(--blue);
     color:var(--secondary-color);
     padding:6px;
     font-weight: bold;
     cursor: pointer;
+    width: 100%;
 }
 
 .signup-already{

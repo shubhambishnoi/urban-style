@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://escapeui.netlify.app/styling/components.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/product-listing.css">
+    <script src="https://kit.fontawesome.com/7759c244e7.js" crossorigin="anonymous"></script>
+    <title>Products</title>
+</head>
+
+<body>
+    <header class="header-main flex flex-y-ctr">
+        <a href="../index.html">
+            <h2 class="header-brand-title">Urban Style</h2>
+        </a>
+        <input class="header-search" type="text" placeholder="Search">
+        <div class="header-right flex flex-y-ctr">
+            <a href="./login.html"><button class="header-login-btn">Login</button></a>
+            <div class="mail-badge header-icon-p">
+                <a href="./wishlist.html"><i class="fa-regular fa-heart header-icon"></i></a>
+                <span class="badge">0</span>
+            </div>
+            <div class="mail-badge header-icon-p">
+                <a href="./cart.html"><i class="fa-solid fa-cart-arrow-down header-icon"></i></a>
+                <span class="badge">0</span>
+            </div>
+            <a href="./login.html"><i class="fa-solid fa-arrow-right-from-bracket header-icon"></i></a>
+        </div>
+    </header>
+
+    <div class="p-main-ct flex">
+        <!-- sidebar -->
+
+        <div class="sidebar flex">
+            <div class="sub-div flex">
+                <h3>Filters</h3>
+                <span class="underline">Clear</span>
+            </div><br>
+
+            <h3>Price</h3>
+            <div class="sub-div flex">
+                <span>0</span>
+                <span>50</span>
+                <span>100</span>
+            </div>
+            <input type="range" name="r-input" class="slider" min="0" max="100"><br>
+
+            <h3>Category</h3>
+            <div>
+                <input type="checkbox" id="jeans">
+                <label for="jeans">Jeans</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="t-shirt">
+                <label for="t-shirt">T shirts</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="suit">
+                <label for="suit">Suits</label>
+            </div><br>
+
+            <h3>Ratings</h3>
+
+            <div>
+                <input name="ratings" type="radio" id="r-4">
+                <label for="r-4">4 Stars & above</label>
+            </div>
+
+            <div>
+                <input name="ratings" type="radio" id="r-3">
+                <label for="r-3">3 Stars & above</label>
+            </div>
+
+            <div>
+                <input name="ratings" type="radio" id="r-2">
+                <label for="r-2">2 Stars & above</label>
+            </div>
+
+            <div>
+                <input name="ratings" type="radio" id="r-1">
+                <label for="r-1">1 Stars & above</label>
+            </div><br>
+
+            <h3>Sort by</h3>
+
+            <div>
+                <input name="sort" type="radio" id="l-h">
+                <label for="l-h">Price - Low to High</label>
+            </div>
+
+            <div>
+                <input name="sort" type="radio" id="h-l">
+                <label for="h-l">Price - High to Low</label>
+            </div>
+        </div>
+
+
+        <!-- products main -->
+        <div class="p-c-wrapper flex">
+            <div>
+                <h3>Showing All Products</h3>
+                <span> (showing 6 products)</span>
+            </div>
+            <div class="products-ct flex">
+
+                <!-- card component from component lib -->
+                <div class="card-v flex">
+                    <img class="card-im" src="../abstracts/image-clothes/wishlist-1.jpeg" alt="image" width="250"
+                        height="250">
+                    <i class="fa-solid fa-heart filled-heart-f"></i>
+                    <div class="card-title name">Men's T Shirt</div>
+                    <div class="card-title price">₹500 <span class="price strike">₹1000</span></div>
+                    <div class="cart-btn card-title" id="btn-b">Go to Cart</div>
+                </div>
+
+                <div class="card-v flex">
+                    <img class="card-im" src="../abstracts/image-clothes/wishlist-1.jpeg" alt="image" width="250"
+                        height="250">
+                    <i class="fa-regular fa-heart empty-heart-f"></i>
+                    <div class="card-title name">Men's T Shirt</div>
+                    <div class="card-title price">₹500 <span class="price strike">₹1000</span></div>
+                    <div class="cart-btn card-title">Add to Cart</div>
+                </div>
+
+                <div class="card-v flex">
+                    <img class="card-im" src="../abstracts/image-clothes/wishlist-1.jpeg" alt="image" width="250"
+                        height="250">
+                    <i class="fa-regular fa-heart empty-heart-f"></i>
+                    <div class="card-title name">Men's T Shirt</div>
+                    <div class="card-title price">₹500 <span class="price strike">₹1000</span></div>
+                    <div class="cart-btn card-title">Add to Cart</div>
+                </div>
+
+                <div class="card-v flex">
+                    <img class="card-im" src="../abstracts/image-clothes/wishlist-1.jpeg" alt="image" width="250"
+                        height="250">
+                    <i class="fa-regular fa-heart empty-heart-f"></i>
+                    <div class="card-title name">Men's T Shirt</div>
+                    <div class="card-title price">₹500 <span class="price strike">₹1000</span></div>
+                    <div class="cart-btn card-title">Add to Cart</div>
+                </div>
+
+                <div class="card-v flex">
+                    <img class="card-im" src="../abstracts/image-clothes/wishlist-1.jpeg" alt="image" width="250"
+                        height="250">
+                    <i class="fa-regular fa-heart empty-heart-f"></i>
+                    <div class="card-title name">Men's T Shirt</div>
+                    <div class="card-title price">₹500 <span class="price strike">₹1000</span></div>
+                    <div class="cart-btn card-title">Add to Cart</div>
+                </div>
+
+                <div class="card-v flex">
+                    <img class="card-im" src="../abstracts/image-clothes/wishlist-1.jpeg" alt="image" width="250"
+                        height="250">
+                    <i class="fa-regular fa-heart empty-heart-f"></i>
+                    <div class="card-title name">Men's T Shirt</div>
+                    <div class="card-title price">₹500 <span class="price strike">₹1000</span></div>
+                    <div class="cart-btn card-title">Add to Cart</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
