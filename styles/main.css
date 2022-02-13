@@ -10,6 +10,8 @@ body{
     padding:1rem;
     top:0;
     height: 4rem;
+    z-index:1;
+    position: fixed;
 }
 
 .header-brand-title{
@@ -56,7 +58,7 @@ body{
 
 .main-ct{
     flex-direction: column;
-    margin: 2rem 2rem 2rem;
+    margin: 6rem 2rem 2rem;
     gap:2rem;
     align-items: center;
 }
@@ -81,4 +83,18 @@ body{
 
 .align-c{
     text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.shop-now-btn{
+    margin-top: 1rem;
+    background-color: var(--blue);
+    color:var(--secondary-color);
+    padding:6px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 12rem;
 }
