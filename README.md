@@ -1,3 +1,3 @@
 # urban-style
 
-Site in production check progress here - https://urban-style.netlify.app/
+Site in progress check here - https://urban-style.netlify.app/
