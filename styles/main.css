@@ -13,7 +13,7 @@ body{
 }
 
 .header-brand-title{
-    color:var(--gray);
+    color:var(--brand-color);
 }
 
 .header-right{
