@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://escapeui.netlify.app/styling/components.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/cart.css">
+    <script src="https://kit.fontawesome.com/7759c244e7.js" crossorigin="anonymous"></script>
+    <title>Cart</title>
+</head>
+
+<body>
+    <header class="header-main flex flex-y-ctr">
+        <h2 class="header-brand-title">Urban Style</h2>
+        <input class="header-search" type="text" placeholder="Search">
+        <div class="header-right flex flex-y-ctr">
+            <button class="header-login-btn">Login</button>
+            <div class="mail-badge header-icon-p">
+                <i class="fa-regular fa-heart header-icon"></i>
+                <span class="badge">0</span>
+            </div>
+            <div class="mail-badge header-icon-p">
+                <i class="fa-solid fa-cart-arrow-down header-icon"></i>
+                <span class="badge">0</span>
+            </div>
+            <i class="fa-solid fa-arrow-right-from-bracket header-icon"></i>
+        </div>
+    </header>
+
+    <div class="cart-main">
+        <h3 class="align-c">My Cart(2)</h3>
+        <div class="cart-ct flex">
+            <div class="c-cards flex">
+                <!-- card from component library -->
+                <div class="card-h flex">
+                    <img class="card-im" src="../abstracts/image-clothes/jeans.jpeg" alt="image" width="250"
+                        height="300">
+                    <hr>
+                    <div class="h-item flex">
+                        <div class="card-title name">Men's Jeans</div>
+                        <span class="card-title price">₹500 <span class="price strike">₹1000</span></span>
+                        <div class="card-title price discount">50% off</div>
+                        <div class="qty">Quantity <span><i class="fa-solid fa-circle-minus"></i></span><input
+                                type="text" class="qty-present" value="1"><span><i
+                                    class="fa-solid fa-circle-plus"></i></span></div>
+                        <div class="cart-btn card-title" id="btn-b">Remove from Cart</div>
+                        <div class="cart-btn card-title" id="cart-w">Move to wishlist</div>
+                    </div>
+                </div>
+
+                <div class="card-h flex">
+                    <img class="card-im" src="../abstracts/image-clothes/suit.jpeg" alt="image" width="250"
+                        height="300">
+                    <hr>
+                    <div class="h-item flex">
+                        <div class="card-title name">Men's Suit</div>
+                        <span class="card-title price">₹2500 <span class="price strike">₹4000</span></span>
+                        <div class="card-title price discount">20% off</div>
+                        <div class="qty">Quantity <span><i class="fa-solid fa-circle-minus"></i></span><input
+                                type="text" class="qty-present" value="1"><span><i
+                                    class="fa-solid fa-circle-plus"></i></span></div>
+                        <div class="cart-btn card-title" id="btn-b">Remove from Cart</div>
+                        <div class="cart-btn card-title" id="cart-w">Move to wishlist</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-price flex">
+                <h3>PRICE DETAILS</h3>
+                <hr>
+                <div class="price-sub flex">
+                    <span>Price (2 items)</span>
+                    <span>₹8000</span>
+                </div>
+
+                <div class="price-sub flex">
+                    <span>Discount</span>
+                    <span class="discount">-₹1000</span>
+                </div>
+
+                <div class="price-sub flex">
+                    <span>Delivery Charges</span>
+                    <span>₹100</span>
+                </div>
+                <hr>
+
+                <div class="price-sub flex">
+                    <h3>Total</h3>
+                    <h3>₹7100</h3>
+                </div>
+                <hr><br>
+                <div>You will save ₹1000 on this order</div><br>
+
+                <button class="place-order">Place your order</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -13,7 +13,7 @@ body{
 }
 
 .header-brand-title{
-    color:var(--brand-color);
+    color:var(--dark-gray);
 }
 
 .header-right{
@@ -40,6 +40,7 @@ body{
 
 .header-icon{
     font-size: 1.5rem;
+    color:var(--dark-gray);
 }
 
 .header-icon-p{
@@ -67,12 +68,17 @@ body{
 .overlay-txt{
     background-color: var(--secondary-color);
     text-align: center;
-    color:var(--gray);
+    color:var(--dark-gray);
     width:100%;
     top:50%;
-    font-size:14px;
+    font-size:2rem;
+    padding:6px;
 }
 
 .card-bd{
     border:none;
+}
+
+.align-c{
+    text-align: center;
 }
