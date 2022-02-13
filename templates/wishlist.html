@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://escapeui.netlify.app/styling/components.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/wishlist.css">
+    <script src="https://kit.fontawesome.com/7759c244e7.js" crossorigin="anonymous"></script>
+    <title>Wishlist</title>
+</head>
+
+<body>
+    <header class="header-main flex flex-y-ctr">
+        <h2 class="header-brand-title">Urban Style</h2>
+        <input class="header-search" type="text" placeholder="Search">
+        <div class="header-right flex flex-y-ctr">
+            <button class="header-login-btn">Login</button>
+            <div class="mail-badge header-icon-p">
+                <i class="fa-regular fa-heart header-icon"></i>
+                <span class="badge">0</span>
+            </div>
+            <div class="mail-badge header-icon-p">
+                <i class="fa-solid fa-cart-arrow-down header-icon"></i>
+                <span class="badge">0</span>
+            </div>
+            <i class="fa-solid fa-arrow-right-from-bracket header-icon"></i>
+        </div>
+    </header>
+
+    <div class="wishlist-ct flex">
+        <h1 style="text-align: center;">My Wishlist</h1>
+
+
+        <!-- card from component library -->
+        <div class="card-v-h flex flex-y-ctr">
+            <div class="card-v flex">
+                <img class="card-im" src="../abstracts/image-clothes/wishlist-1.jpeg" alt="image" width="250"
+                    height="250">
+                <i class="fa-solid fa-heart wishlist-heart-f"></i>
+                <div class="card-title name clr-w">Men's T Shirt</div>
+                <div class="card-title price clr-w">₹500 <span class="price strike">₹1000</span></div>
+                <div class="cart-btn card-title clr-w" id="btn-b">Go to Cart</div>
+            </div>
+
+
+            <div class="card-v flex">
+                <img class="card-im" src="../abstracts/image-clothes/wishlist-4.jpeg" alt="image" width="250"
+                    height="250">
+                <i class="fa-solid fa-heart wishlist-heart-f"></i>
+                <div class="card-title name">Men's Suit</div>
+                <div class="card-title price">₹3500 <span class="price strike">₹5000</span></div>
+                <div class="cart-btn card-title" id="btn-b">Go to Cart</div>
+            </div>
+
+
+            <div class="card-v flex">
+                <img class="card-im" src="../abstracts/image-clothes/wishlist-2.jpeg" alt="image" width="250"
+                    height="250">
+                <i class="fa-solid fa-heart wishlist-heart-f"></i>
+                <div class="card-title name clr-w">Men's T Shirt</div>
+                <div class="card-title price clr-w">₹600 <span class="price strike">₹1000</span></div>
+                <div class="cart-btn card-title clr-w" id="btn-b">Go to Cart</div>
+            </div>
+
+            <div class="card-v flex">
+                <img class="card-im" src="../abstracts/image-clothes/wishlist-3.jpeg" alt="image" width="250"
+                    height="250">
+                <i class="fa-solid fa-heart wishlist-heart-f"></i>
+                <div class="card-title name clr-w">Men's Suit</div>
+                <div class="card-title price clr-w">₹1500 <span class="price strike">₹3000</span></div>
+                <div class="cart-btn card-title clr-w" id="btn-b">Go to Cart</div>
+            </div>
+        </div>
+</body>
+
+</html>
