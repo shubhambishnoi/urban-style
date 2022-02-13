@@ -1,4 +1,4 @@
-.signup-ct{
+.login-ct{
     flex-direction: column;
     gap:6px;
     width: 25rem;
@@ -8,29 +8,40 @@
     margin:auto;
 }
 
-.signup-ct span label{
+.login-ct span label{
     font-weight: bold;
     display: block;
 }
 
-.signup-ct label{
+.pwd{
+    position:relative;
+}
+.pwd>i{
+    position:absolute;
+    top:1.4rem;
+    right:2px;
+    cursor: pointer;
+}
+
+.login-ct label{
     font-size:12px;
     display: inline;
     font-weight: bold;
 }
 
-.signup-ct span input{
+.login-ct span input{
     padding:4px;
     width: 100%;
     background-color: var(--secondary-color);
     border:1px solid var(--gray);
 }
-.signup-ct h2{
+
+.login-ct h2{
     margin-bottom: 1rem;
     text-align: center;
 }
 
-.signup-c-a{
+.login-a{
     margin-top: 1rem;
     background-color: var(--blue);
     color:var(--secondary-color);
@@ -39,7 +50,7 @@
     cursor: pointer;
 }
 
-.signup-already{
+.goto-signup{
     margin-top:1rem;
     font-size: 14px;
     text-align: center;
@@ -47,12 +58,10 @@
     cursor: pointer;
 }
 
-.pwd{
-    position:relative;
-}
-.pwd>i{
-    position:absolute;
-    top:1.2rem;
-    right:2px;
+.forgot{
+    display: block;
+    margin-top: 1rem;
+    color:var(--blue-2);
+    font-weight: bold;
     cursor: pointer;
 }
