@@ -1,3 +1,5 @@
-# urban-style
+# Welcome to Urban Style
 
-Site in progress check here - https://urban-style.netlify.app/
+This is your one stop destination for stylish clothing.
+
+
