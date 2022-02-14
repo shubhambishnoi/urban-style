@@ -12,6 +12,7 @@ body{
     height: 4rem;
     z-index:1;
     position: fixed;
+    flex-wrap: wrap;
 }
 
 .header-brand-title{
@@ -97,4 +98,17 @@ a{
     font-weight: bold;
     cursor: pointer;
     width: 12rem;
+}
+
+
+/************** media queries **********/
+
+@media only screen and (max-width:600px){
+    .header-main{
+        height: 6rem;
+    }
+
+    .main-ct{
+        margin-top:8rem;
+    }
 }

@@ -57,3 +57,12 @@
     right:2px;
     cursor: pointer;
 }
+
+/************** media queries **********/
+
+@media only screen and (max-width:600px){
+    .signup-ct{
+        margin: 10rem auto;
+        width: 20rem;
+    }
+}
