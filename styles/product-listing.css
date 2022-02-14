@@ -71,3 +71,16 @@
 .slider{
     width: 100%;
 }
+
+
+/************** media queries **********/
+
+@media only screen and (max-width:600px){
+    .sidebar{
+        display: none;
+    }
+
+    .p-c-wrapper{
+        margin-top:8rem;
+    }
+}

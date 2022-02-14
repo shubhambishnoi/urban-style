@@ -66,3 +66,13 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+
+/************** media queries **********/
+
+@media only screen and (max-width:600px){
+    .login-ct{
+        margin: 10rem auto;
+        width: 20rem;
+    }
+}
