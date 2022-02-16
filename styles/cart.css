@@ -130,4 +130,16 @@
     .qty{
         text-align: left;
     }
+
+    .cart-price{
+        width:18rem;
+    }
+
+    .price-sub{
+        gap:6rem;
+    }
+
+    .sub-discount>.discount{
+        font-size: 1rem;
+    }
 }
