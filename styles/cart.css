@@ -88,7 +88,7 @@
         margin-left:0rem;
     }
     .card-h{
-        width:18rem;
+        width:16rem;
         height: 14rem;
     }
 
@@ -129,5 +129,17 @@
 
     .qty{
         text-align: left;
+    }
+
+    .cart-price{
+        width:16rem;
+    }
+
+    .price-sub{
+        gap:4rem;
+    }
+
+    .sub-discount>.discount{
+        font-size: 1rem;
     }
 }
