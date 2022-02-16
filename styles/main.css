@@ -111,4 +111,8 @@ a{
     .main-ct{
         margin-top:8rem;
     }
+
+    .header-right{
+        margin-left:auto;
+    }
 }
