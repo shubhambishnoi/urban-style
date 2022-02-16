@@ -88,7 +88,7 @@
         margin-left:0rem;
     }
     .card-h{
-        width:18rem;
+        width:16rem;
         height: 14rem;
     }
 
@@ -132,11 +132,11 @@
     }
 
     .cart-price{
-        width:18rem;
+        width:16rem;
     }
 
     .price-sub{
-        gap:6rem;
+        gap:4rem;
     }
 
     .sub-discount>.discount{
